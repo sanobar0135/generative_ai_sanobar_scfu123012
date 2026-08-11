@@ -1,0 +1,38 @@
+[
+  {
+    "model": "Baidu / ERNIE",
+    "creator": "Baidu",
+    "approx_size": "~3B*",
+    "active_parameters": "Depends on model",
+    "generative": true,
+    "context": "Up to ~128K*",
+    "local_execution": "Model-dependent",
+    "architecture": "Depends on model",
+    "main_focus": "Multimodal AI / reasoning",
+    "hardware": "Depends on model"
+  },
+  {
+    "model": "OLMo 2",
+    "creator": "Allen Institute for AI",
+    "approx_size": "7B / 13B",
+    "active_parameters": "N/A",
+    "generative": true,
+    "context": "4K",
+    "local_execution": "Yes",
+    "architecture": "Transformer-based",
+    "main_focus": "Open AI research",
+    "hardware": "Consumer GPU / CPU with quantization"
+  },
+  {
+    "model": "NVIDIA Nemotron-3 Nano",
+    "creator": "NVIDIA",
+    "approx_size": "~30B total",
+    "active_parameters": "~3B",
+    "generative": true,
+    "context": "Up to 1M",
+    "local_execution": "Yes, with suitable hardware",
+    "architecture": "Mamba-2 + Transformer + MoE",
+    "main_focus": "Reasoning / agents / long context",
+    "hardware": "High-end GPU recommended"
+  }
+]
